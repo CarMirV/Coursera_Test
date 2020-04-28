@@ -12,8 +12,15 @@ body {
 }
 
 #logo-img {
-    background: url('images/logo.jpg') no-repeat;
+    background: url("images/logo.png") no-repeat;
     width: 150px;
-    height: 134px;
+    height: 150px;
+    background-size: 100%;
     margin: 10px 15px 10px 0px;
+}
+
+#Certification {
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
 }
