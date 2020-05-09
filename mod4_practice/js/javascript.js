@@ -1,4 +1,9 @@
-var x = 10;
-if( (null) || (console.log("Hello")) || x > 5 ) {
-    console.log("Hello");
-}
+var literalCircle = {
+    radius: 10,
+    getArea: function() {
+        console.log(this);
+        return Math.PI * Math.pow(this.radius,2);
+    }
+};
+
+console.log(literalCircle.getArea());
